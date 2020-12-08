@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\zimni\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\zimni\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_OOP_Lab_3.-791054530.00" t="ExcludeRecursive" />
+    <e p="C:\Users\zimni\RiderProjects\OOP_Lab_3" t="IncludeFlat">
+      <e p="OOP_Lab_3" t="IncludeRecursive">
+        <e p="Annotations.cs" t="Include" />
+        <e p="App.xaml" t="Include" />
+        <e p="App.xaml.cs" t="Include" />
+        <e p="AssemblyInfo.cs" t="Include" />
+        <e p="Base" t="Include">
+          <e p="BindableBase.cs" t="Include" />
+          <e p="ModelBase.cs" t="Include" />
+          <e p="StorageManagerBase.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Events" t="Include">
+          <e p="NavigationEvent.cs" t="Include" />
+          <e p="NotificationEvent.cs" t="Include" />
+          <e p="SignInEvent.cs" t="Include" />
+        </e>
+        <e p="Helpers" t="Include">
+          <e p="MyICommand.cs" t="Include" />
+        </e>
+        <e p="MainWindow.xaml" t="Include" />
+        <e p="MainWindow.xaml.cs" t="Include" />
+        <e p="Models" t="Include">
+          <e p="Customer.cs" t="Include" />
+          <e p="Order.cs" t="Include" />
+          <e p="Product.cs" t="Include" />
+          <e p="Shipment.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1-windows" t="Include">
+              <e p="App.g.cs" t="Include" />
+              <e p="GeneratedInternalTypeHelper.g.cs" t="Include" />
+              <e p="MainWindow.g.cs" t="Include" />
+              <e p="OOP_Lab_3.AssemblyInfo.cs" t="Include" />
+              <e p="Views" t="Include">
+                <e p="SignInView.g.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="OOP_Lab_3.csproj" t="IncludeRecursive" />
+        <e p="Storage" t="Include">
+          <e p="Storage.cs" t="Include" />
+          <e p="StorageManagers" t="Include">
+            <e p="CustomerStorageManager.cs" t="Include" />
+            <e p="OrderStorageManager.cs" t="Include" />
+            <e p="ProductStorageManager.cs" t="Include" />
+            <e p="ShipmentStorageManager.cs" t="Include" />
+          </e>
+          <e p="StorageOptions.cs" t="Include" />
+        </e>
+        <e p="ViewModels" t="Include">
+          <e p="MainWindowViewModel.cs" t="Include" />
+          <e p="SignInViewModel.cs" t="Include" />
+        </e>
+        <e p="Views" t="Include">
+          <e p="SignInView.xaml" t="Include" />
+          <e p="SignInView.xaml.cs" t="Include" />
+        </e>
+      </e>
+      <e p="OOP_Lab_3.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
