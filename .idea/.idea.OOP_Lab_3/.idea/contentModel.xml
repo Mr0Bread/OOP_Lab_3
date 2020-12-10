@@ -11,8 +11,8 @@
         <e p="AssemblyInfo.cs" t="Include" />
         <e p="Base" t="Include">
           <e p="BindableBase.cs" t="Include" />
+          <e p="GenericStorageManagerBase.cs" t="Include" />
           <e p="ModelBase.cs" t="Include" />
-          <e p="StorageManagerBase.cs" t="Include" />
         </e>
         <e p="bin" t="ExcludeRecursive" />
         <e p="Events" t="Include">
