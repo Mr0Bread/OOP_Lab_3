@@ -5,30 +5,31 @@ using System.Runtime.Serialization.Formatters.Binary;
 
 namespace OOP_Lab_3.Base
 {
-    public abstract class StorageManagerBase
+    public abstract class GenericStorageManagerBase<TModel>
     {
         protected string FileName;
         protected BinaryFormatter BinaryFormatter;
         protected Stream Stream;
-        
-        public List<ModelBase> GetItemsList()
+
+        public List<TModel> GetItemsList()
         {
             if (new FileInfo(FileName).Length == 0)
             {
-                return new List<ModelBase>();
+                return new List<TModel>();
             }
 
             Stream = GetExistingFileStreamToRead();
-            var itemsList = (List<ModelBase>) BinaryFormatter.Deserialize(Stream);
+            var itemsList = (List<TModel>) BinaryFormatter.Deserialize(Stream);
             Stream.Close();
             Stream = null;
             return itemsList;
         }
 
-        public ModelBase GetItemById(int id)
-        {
-            return GetItemsList().FirstOrDefault(item => item.Id == id);
-        }
+        public abstract TModel GetItemById(int id);
+
+        public abstract bool DoesItemExists(List<TModel> itemsList, int id);
+
+        public abstract List<TModel> FilterOutById(List<TModel> itemsList, int id);
 
         public bool RemoveItemFromList(int id)
         {
@@ -39,16 +40,14 @@ namespace OOP_Lab_3.Base
 
             Stream = GetExistingFileStreamToRead();
 
-            var itemsList = (List<ModelBase>) BinaryFormatter.Deserialize(Stream);
+            var itemsList = (List<TModel>) BinaryFormatter.Deserialize(Stream);
 
-            if (!itemsList.Exists(x => x.Id == id))
+            if (!DoesItemExists(itemsList, id))
             {
                 return false;
             }
-
-            itemsList = itemsList
-                .Where(item => item.Id != id)
-                .ToList();
+            
+            itemsList = FilterOutById(itemsList, id);
             Stream.Close();
             Stream = GetFileStreamToWrite();
             BinaryFormatter.Serialize(Stream, itemsList);
@@ -57,20 +56,20 @@ namespace OOP_Lab_3.Base
             return true;
         }
 
-        public void AddItemToList(ModelBase item)
+        public void AddItemToList(TModel item)
         {
             if (new FileInfo(FileName).Length == 0)
             {
                 Stream = GetFileStreamToWrite();
-                BinaryFormatter.Serialize(Stream, new List<ModelBase> {item});
+                BinaryFormatter.Serialize(Stream, new List<TModel> {item});
                 Stream.Close();
                 Stream = null;
                 UpdateStorageState();
                 return;
             }
-            
+
             Stream = GetExistingFileStreamToRead();
-            var customerList = (List<ModelBase>) BinaryFormatter.Deserialize(Stream);
+            var customerList = (List<TModel>) BinaryFormatter.Deserialize(Stream);
             customerList.Add(item);
             Stream.Close();
             Stream = GetFileStreamToWrite();

@@ -4,11 +4,42 @@
     <projectFile>OOP_Lab_3/OOP_Lab_3.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="164b9f45-7bb4-40aa-9013-eca6c0dcbe2a" name="Default Changelist" comment="" />
+    <list default="true" id="164b9f45-7bb4-40aa-9013-eca6c0dcbe2a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/OOP_Lab_3/Base/GenericStorageManagerBase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.OOP_Lab_3/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.OOP_Lab_3/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.OOP_Lab_3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.OOP_Lab_3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_Lab_3/Base/StorageManagerBase.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_Lab_3/MainWindow.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/MainWindow.xaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_Lab_3/Storage/StorageManagers/CustomerStorageManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/Storage/StorageManagers/CustomerStorageManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_Lab_3/Storage/StorageManagers/OrderStorageManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/Storage/StorageManagers/OrderStorageManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_Lab_3/Storage/StorageManagers/ProductStorageManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/Storage/StorageManagers/ProductStorageManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_Lab_3/Storage/StorageManagers/ShipmentStorageManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/Storage/StorageManagers/ShipmentStorageManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_Lab_3/bin/Debug/netcoreapp3.1-windows/OOP_Lab_3.dll" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/bin/Debug/netcoreapp3.1-windows/OOP_Lab_3.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_Lab_3/bin/Debug/netcoreapp3.1-windows/OOP_Lab_3.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/bin/Debug/netcoreapp3.1-windows/OOP_Lab_3.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_Lab_3/bin/Debug/netcoreapp3.1-windows/customers.dat" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/bin/Debug/netcoreapp3.1-windows/customers.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_Lab_3/bin/Debug/netcoreapp3.1-windows/storage.dat" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/bin/Debug/netcoreapp3.1-windows/storage.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/MainWindow.baml" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/MainWindow.baml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/OOP_Lab_3.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/OOP_Lab_3.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/OOP_Lab_3.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/OOP_Lab_3.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/OOP_Lab_3.dll" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/OOP_Lab_3.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/OOP_Lab_3.g.resources" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/OOP_Lab_3.g.resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/OOP_Lab_3.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/OOP_Lab_3.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/OOP_Lab_3_MarkupCompile.cache" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/OOP_Lab_3_MarkupCompile.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/OOP_Lab_3_MarkupCompile.i.cache" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/OOP_Lab_3_MarkupCompile.i.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/Views/SignInView.baml" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/Views/SignInView.baml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="feature/sign-in-view" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A9C37662-579A-499A-A4DE-B3C85349280D/2e/3ab62750/RuntimeType.cs" root0="SKIP_HIGHLIGHTING" />
@@ -50,16 +81,18 @@
         <option value="$PROJECT_DIR$/OOP_Lab_3/Models/ResourceModels/ShipmentResourceModel.cs" />
         <option value="$PROJECT_DIR$/OOP_Lab_3/Base/ModelBase.cs" />
         <option value="$PROJECT_DIR$/OOP_Lab_3/Base/StorageManagerBase.cs" />
+        <option value="$PROJECT_DIR$/OOP_Lab_3/Storage/Storage.cs" />
+        <option value="$PROJECT_DIR$/OOP_Lab_3/Storage/StorageManagers/CustomerStorageManager.cs" />
+        <option value="$PROJECT_DIR$/OOP_Lab_3/Base/GenericStorageManagerBase.cs" />
+        <option value="$PROJECT_DIR$/OOP_Lab_3/MainWindow.xaml.cs" />
         <option value="$PROJECT_DIR$/OOP_Lab_3/Storage/StorageManagers/OrderStorageManager.cs" />
         <option value="$PROJECT_DIR$/OOP_Lab_3/Storage/StorageManagers/ProductStorageManager.cs" />
         <option value="$PROJECT_DIR$/OOP_Lab_3/Storage/StorageManagers/ShipmentStorageManager.cs" />
-        <option value="$PROJECT_DIR$/OOP_Lab_3/MainWindow.xaml.cs" />
-        <option value="$PROJECT_DIR$/OOP_Lab_3/Storage/StorageManagers/CustomerStorageManager.cs" />
-        <option value="$PROJECT_DIR$/OOP_Lab_3/Storage/Storage.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="1l3XViYPuj1X7ESLGumrnhC3oKo" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -97,22 +130,22 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1237" height="302" key="GridCell.Tab.0.bottom" timestamp="1607421403463">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1607604777633">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="302" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1607421403463" />
-    <state width="1237" height="302" key="GridCell.Tab.0.center" timestamp="1607421403463">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1607604777633" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1607604777633">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="302" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1607421403463" />
-    <state width="1237" height="302" key="GridCell.Tab.0.left" timestamp="1607421403463">
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1607604777633" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1607604777633">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="302" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1607421403463" />
-    <state width="1237" height="302" key="GridCell.Tab.0.right" timestamp="1607421403463">
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1607604777633" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1607604777633">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="302" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1607421403463" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1607604777633" />
     <state width="1237" height="172" key="GridCell.Tab.1.bottom" timestamp="1607420775257">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
@@ -177,75 +210,17 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state width="1237" height="172" key="GridCell.Tab.4.right/0.0.1280.689@0.0.1280.689" timestamp="1607420775258" />
-    <state x="411" y="0" key="RiderGenerateDialog" timestamp="1607417175120">
+    <state x="411" y="0" key="RiderGenerateDialog" timestamp="1607604864136">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="411" y="0" key="RiderGenerateDialog/0.0.1280.689@0.0.1280.689" timestamp="1607417175120" />
-    <state x="274" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1607418902989">
+    <state x="411" y="0" key="RiderGenerateDialog/0.0.1280.689@0.0.1280.689" timestamp="1607604864136" />
+    <state x="274" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1607605027090">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="274" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1280.689@0.0.1280.689" timestamp="1607418902989" />
+    <state x="274" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1280.689@0.0.1280.689" timestamp="1607605027090" />
     <state x="303" y="10" width="672" height="678" key="search.everywhere.popup" timestamp="1607371657661">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="303" y="10" width="672" height="678" key="search.everywhere.popup/0.0.1280.689@0.0.1280.689" timestamp="1607371657661" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/OOP_Lab_3/MainWindow.xaml.cs</url>
-          <line>27</line>
-          <properties documentPath="C:\Users\zimni\RiderProjects\OOP_Lab_3\OOP_Lab_3\MainWindow.xaml.cs" initialLine="27">
-            <startOffsets>
-              <option value="689" />
-            </startOffsets>
-            <endOffsets>
-              <option value="725" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/OOP_Lab_3/Base/StorageManagerBase.cs</url>
-          <line>63</line>
-          <properties documentPath="C:\Users\zimni\RiderProjects\OOP_Lab_3\OOP_Lab_3\Base\StorageManagerBase.cs" initialLine="63">
-            <startOffsets>
-              <option value="1743" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1782" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/OOP_Lab_3/Base/StorageManagerBase.cs</url>
-          <line>70</line>
-          <properties documentPath="C:\Users\zimni\RiderProjects\OOP_Lab_3\OOP_Lab_3\Base\StorageManagerBase.cs" initialLine="71">
-            <startOffsets>
-              <option value="2038" />
-            </startOffsets>
-            <endOffsets>
-              <option value="2039" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/OOP_Lab_3/Storage/Storage.cs</url>
-          <line>38</line>
-          <properties documentPath="C:\Users\zimni\RiderProjects\OOP_Lab_3\OOP_Lab_3\Storage\Storage.cs" initialLine="38">
-            <startOffsets>
-              <option value="1502" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1503" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

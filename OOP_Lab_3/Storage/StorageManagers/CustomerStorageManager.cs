@@ -1,10 +1,12 @@
-﻿using System.Runtime.Serialization.Formatters.Binary;
+﻿using System.Collections.Generic;
+using System.Linq;
+using System.Runtime.Serialization.Formatters.Binary;
 using OOP_Lab_3.Base;
 using OOP_Lab_3.Models;
 
 namespace OOP_Lab_3.Storage.StorageManagers
 {
-    public sealed class CustomerStorageManager : StorageManagerBase
+    public sealed class CustomerStorageManager : GenericStorageManagerBase<Customer>
     {
         private static readonly object Padlock = new object();
         private static CustomerStorageManager _instance;
@@ -27,7 +29,24 @@ namespace OOP_Lab_3.Storage.StorageManagers
             }  
         }
 
-        public void AddItemToList(Customer customer)
+        public override Customer GetItemById(int id)
+        {
+            return GetItemsList().FirstOrDefault(item => item.Id == id);
+        }
+
+        public override bool DoesItemExists(List<Customer> itemsList, int id)
+        {
+            return itemsList.Exists(x => x.Id == id);
+        }
+
+        public override List<Customer> FilterOutById(List<Customer> itemsList, int id)
+        {
+            return itemsList
+                .Where(item => item.Id != id)
+                .ToList();
+        }
+
+        public new void AddItemToList(Customer customer)
         {
             customer.Id = Instance.Counter;
             base.AddItemToList(customer);
