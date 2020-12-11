@@ -26,11 +26,6 @@ namespace OOP_Lab_3
         {
             InitializeComponent();
             Storage.Storage.InitializeStorage();
-            CustomerStorageManager.Instance.AddItemToList(new Customer{Name = "Test"});
-            CustomerStorageManager.Instance.AddItemToList(new Customer());
-            CustomerStorageManager.Instance
-                .GetItemsList()
-                .ForEach(item => Console.WriteLine(item.Name));
         }
     }
 }

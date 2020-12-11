@@ -20,3 +20,4 @@ C:\Users\zimni\RiderProjects\OOP_Lab_3\OOP_Lab_3\obj\Debug\netcoreapp3.1-windows
 C:\Users\zimni\RiderProjects\OOP_Lab_3\OOP_Lab_3\obj\Debug\netcoreapp3.1-windows\Views\SignInView.g.cs
 C:\Users\zimni\RiderProjects\OOP_Lab_3\OOP_Lab_3\obj\Debug\netcoreapp3.1-windows\GeneratedInternalTypeHelper.g.cs
 C:\Users\zimni\RiderProjects\OOP_Lab_3\OOP_Lab_3\obj\Debug\netcoreapp3.1-windows\Views\SignInView.baml
+C:\Users\zimni\RiderProjects\OOP_Lab_3\OOP_Lab_3\obj\Debug\netcoreapp3.1-windows\App.baml
