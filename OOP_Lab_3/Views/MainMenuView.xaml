@@ -7,6 +7,37 @@
              mc:Ignorable="d"
              d:DesignHeight="300" d:DesignWidth="300">
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="40" />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition Width="40" />
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="70" />
+            <RowDefinition />
+            <RowDefinition Height="20" />
+            <RowDefinition Height="50" />
+            <RowDefinition Height="60" />
+        </Grid.RowDefinitions>
+
+        <TextBlock
+            Grid.Column="1"
+            Grid.ColumnSpan="4"
+            VerticalAlignment="Center"
+            HorizontalAlignment="Center">
+            Main Menu
+        </TextBlock>
+
+        <Button Width="140" Content="Orders" Grid.Row="1" Grid.Column="1" />
+        <Button Width="140" Content="Products" Grid.Row="1" Grid.Column="2" />
+        <Button Width="140" Content="Customers" Grid.Row="1" Grid.Column="3" />
+        <Button Width="140" Content="Shipments" Grid.Row="1" Grid.Column="4" />
+
+        <Button Content="Users" Grid.Column="2" Grid.ColumnSpan="2" Grid.Row="3"/>
+
     </Grid>
 </UserControl>

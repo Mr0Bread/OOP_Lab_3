@@ -8,24 +8,46 @@
         xmlns:viewModels="clr-namespace:OOP_Lab_3.ViewModels"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800" MinHeight="450" MinWidth="800">
-    
+
     <Window.DataContext>
         <viewModels:MainWindowViewModel />
     </Window.DataContext>
-    
+
     <Window.Resources>
         <DataTemplate DataType="{x:Type viewModels:SignInViewModel}">
             <views:SignInView />
         </DataTemplate>
-        
+
         <DataTemplate DataType="{x:Type viewModels:MainMenuViewModel}">
             <views:MainMenuView />
         </DataTemplate>
+
+        <Style TargetType="{x:Type Button}">
+            <Setter
+                Property="Foreground"
+                Value="#FFD5C6C6" />
+            <Setter
+                Property="Background"
+                Value="#FF6B5F5F" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border Background="{TemplateBinding Background}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#4a4141" />
+                </Trigger>
+            </Style.Triggers>
+        </Style>
     </Window.Resources>
-    
+
     <Grid Background="#FF163939">
         <ContentControl
-            Content="{Binding CurrentViewModel}"
-            />
+            Content="{Binding CurrentViewModel}" />
     </Grid>
 </Window>
