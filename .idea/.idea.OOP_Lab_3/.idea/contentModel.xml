@@ -61,10 +61,12 @@
           <e p="StorageOptions.cs" t="Include" />
         </e>
         <e p="ViewModels" t="Include">
+          <e p="MainMenuViewModel.cs" t="Include" />
           <e p="MainWindowViewModel.cs" t="Include" />
           <e p="SignInViewModel.cs" t="Include" />
         </e>
         <e p="Views" t="Include">
+          <e p="MainMenuView.xaml" t="Include" />
           <e p="MainMenuView.xaml.cs" t="Include" />
           <e p="SignInView.xaml" t="Include" />
           <e p="SignInView.xaml.cs" t="Include" />

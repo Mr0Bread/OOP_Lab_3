@@ -17,6 +17,10 @@
         <DataTemplate DataType="{x:Type viewModels:SignInViewModel}">
             <views:SignInView />
         </DataTemplate>
+        
+        <DataTemplate DataType="{x:Type viewModels:MainMenuViewModel}">
+            <views:MainMenuView />
+        </DataTemplate>
     </Window.Resources>
     
     <Grid Background="#FF163939">
