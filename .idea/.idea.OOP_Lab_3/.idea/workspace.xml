@@ -5,38 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="164b9f45-7bb4-40aa-9013-eca6c0dcbe2a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/OOP_Lab_3/Converters/LoginDataConverter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.OOP_Lab_3/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.OOP_Lab_3/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.OOP_Lab_3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.OOP_Lab_3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP_Lab_3/App.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/App.xaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP_Lab_3/Events/SignInEvent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/Events/SignInEvent.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP_Lab_3/MainWindow.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/MainWindow.xaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP_Lab_3/MainWindow.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/MainWindow.xaml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP_Lab_3/ViewModels/MainWindowViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/ViewModels/MainWindowViewModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP_Lab_3/ViewModels/SignInViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/ViewModels/SignInViewModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP_Lab_3/Views/SignInView.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/Views/SignInView.xaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP_Lab_3/bin/Debug/netcoreapp3.1-windows/OOP_Lab_3.dll" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/bin/Debug/netcoreapp3.1-windows/OOP_Lab_3.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP_Lab_3/bin/Debug/netcoreapp3.1-windows/OOP_Lab_3.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/bin/Debug/netcoreapp3.1-windows/OOP_Lab_3.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP_Lab_3/bin/Debug/netcoreapp3.1-windows/customers.dat" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/bin/Debug/netcoreapp3.1-windows/customers.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP_Lab_3/bin/Debug/netcoreapp3.1-windows/storage.dat" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/bin/Debug/netcoreapp3.1-windows/storage.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/App.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/App.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/MainWindow.baml" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/MainWindow.baml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/MainWindow.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/MainWindow.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/MainWindow.g.i.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/MainWindow.g.i.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/OOP_Lab_3.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/OOP_Lab_3.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/OOP_Lab_3.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/OOP_Lab_3.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_Lab_3/Storage/Storage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/Storage/Storage.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_Lab_3/Storage/StorageManagers/UserStorageManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/Storage/StorageManagers/UserStorageManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/GeneratedInternalTypeHelper.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/GeneratedInternalTypeHelper.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/MainWindow.baml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/OOP_Lab_3.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/OOP_Lab_3.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/OOP_Lab_3.dll" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/OOP_Lab_3.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/OOP_Lab_3.g.resources" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/OOP_Lab_3.g.resources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/OOP_Lab_3.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/OOP_Lab_3.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/OOP_Lab_3_MarkupCompile.cache" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/OOP_Lab_3_MarkupCompile.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/OOP_Lab_3_MarkupCompile.i.cache" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/OOP_Lab_3_MarkupCompile.i.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/OOP_Lab_3_MarkupCompile.lref" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/OOP_Lab_3_MarkupCompile.lref" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/Views/SignInView.baml" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/Views/SignInView.baml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/Views/SignInView.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/Views/SignInView.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP_Lab_3/obj/OOP_Lab_3.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/obj/OOP_Lab_3.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP_Lab_3/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP_Lab_3/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/Views/SignInView.baml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +65,6 @@
         <option value="$PROJECT_DIR$/OOP_Lab_3/Base/ModelBase.cs" />
         <option value="$PROJECT_DIR$/OOP_Lab_3/Base/StorageManagerBase.cs" />
         <option value="$PROJECT_DIR$/OOP_Lab_3/Storage/StorageManagers/CustomerStorageManager.cs" />
-        <option value="$PROJECT_DIR$/OOP_Lab_3/Storage/Storage.cs" />
         <option value="$PROJECT_DIR$/OOP_Lab_3/Storage/StorageManagers/OrderStorageManager.cs" />
         <option value="$PROJECT_DIR$/OOP_Lab_3/Storage/StorageManagers/ProductStorageManager.cs" />
         <option value="$PROJECT_DIR$/OOP_Lab_3/Storage/StorageManagers/ShipmentStorageManager.cs" />
@@ -99,6 +75,9 @@
         <option value="$PROJECT_DIR$/OOP_Lab_3/App.xaml" />
         <option value="$PROJECT_DIR$/OOP_Lab_3/Views/SignInView.xaml" />
         <option value="$PROJECT_DIR$/OOP_Lab_3/ViewModels/SignInViewModel.cs" />
+        <option value="$PROJECT_DIR$/OOP_Lab_3/Storage/StorageManagers/UserStorageManager.cs" />
+        <option value="$PROJECT_DIR$/OOP_Lab_3/Storage/Storage.cs" />
+        <option value="$PROJECT_DIR$/OOP_Lab_3/Views/MainMenuView.xaml.cs" />
       </list>
     </option>
   </component>
@@ -109,6 +88,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34991708" />
     <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.30016583" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
@@ -155,22 +135,22 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="415" y="0" key="Github.UntrackedFilesDialog/0.0.1280.689@0.0.1280.689" timestamp="1607422098245" />
-    <state width="1237" height="55" key="GridCell.Tab.0.bottom" timestamp="1607676147137">
+    <state width="1237" height="54" key="GridCell.Tab.0.bottom" timestamp="1607723248170">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="55" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1607676147137" />
-    <state width="1237" height="55" key="GridCell.Tab.0.center" timestamp="1607676147137">
+    <state width="1237" height="54" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1607723248170" />
+    <state width="1237" height="54" key="GridCell.Tab.0.center" timestamp="1607723248170">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="55" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1607676147137" />
-    <state width="1237" height="55" key="GridCell.Tab.0.left" timestamp="1607676147137">
+    <state width="1237" height="54" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1607723248170" />
+    <state width="1237" height="54" key="GridCell.Tab.0.left" timestamp="1607723248170">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="55" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1607676147137" />
-    <state width="1237" height="55" key="GridCell.Tab.0.right" timestamp="1607676147137">
+    <state width="1237" height="54" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1607723248170" />
+    <state width="1237" height="54" key="GridCell.Tab.0.right" timestamp="1607723248170">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="55" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1607676147137" />
+    <state width="1237" height="54" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1607723248170" />
     <state width="1237" height="172" key="GridCell.Tab.1.bottom" timestamp="1607421490351">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
