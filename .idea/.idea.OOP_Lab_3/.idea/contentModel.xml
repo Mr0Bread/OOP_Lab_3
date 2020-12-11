@@ -15,6 +15,9 @@
           <e p="ModelBase.cs" t="Include" />
         </e>
         <e p="bin" t="ExcludeRecursive" />
+        <e p="Converters" t="Include">
+          <e p="LoginDataConverter.cs" t="Include" />
+        </e>
         <e p="Events" t="Include">
           <e p="NavigationEvent.cs" t="Include" />
           <e p="NotificationEvent.cs" t="Include" />

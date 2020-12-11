@@ -5,27 +5,48 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="164b9f45-7bb4-40aa-9013-eca6c0dcbe2a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/OOP_Lab_3/Models/User.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP_Lab_3/Storage/StorageManagers/UserStorageManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP_Lab_3/Converters/LoginDataConverter.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.OOP_Lab_3/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.OOP_Lab_3/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.OOP_Lab_3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.OOP_Lab_3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP_Lab_3/Storage/Storage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/Storage/Storage.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP_Lab_3/Storage/StorageOptions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/Storage/StorageOptions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_Lab_3/App.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/App.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_Lab_3/Events/SignInEvent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/Events/SignInEvent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_Lab_3/MainWindow.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/MainWindow.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_Lab_3/MainWindow.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/MainWindow.xaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_Lab_3/ViewModels/MainWindowViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/ViewModels/MainWindowViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_Lab_3/ViewModels/SignInViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/ViewModels/SignInViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_Lab_3/Views/SignInView.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/Views/SignInView.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_Lab_3/bin/Debug/netcoreapp3.1-windows/OOP_Lab_3.dll" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/bin/Debug/netcoreapp3.1-windows/OOP_Lab_3.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_Lab_3/bin/Debug/netcoreapp3.1-windows/OOP_Lab_3.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/bin/Debug/netcoreapp3.1-windows/OOP_Lab_3.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_Lab_3/bin/Debug/netcoreapp3.1-windows/customers.dat" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/bin/Debug/netcoreapp3.1-windows/customers.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_Lab_3/bin/Debug/netcoreapp3.1-windows/storage.dat" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/bin/Debug/netcoreapp3.1-windows/storage.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/App.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/App.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/MainWindow.baml" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/MainWindow.baml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/MainWindow.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/MainWindow.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/MainWindow.g.i.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/MainWindow.g.i.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/OOP_Lab_3.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/OOP_Lab_3.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/OOP_Lab_3.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/OOP_Lab_3.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/OOP_Lab_3.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/OOP_Lab_3.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/OOP_Lab_3.dll" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/OOP_Lab_3.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/OOP_Lab_3.g.resources" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/OOP_Lab_3.g.resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/OOP_Lab_3.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/OOP_Lab_3.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/OOP_Lab_3_MarkupCompile.cache" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/OOP_Lab_3_MarkupCompile.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/OOP_Lab_3_MarkupCompile.i.cache" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/OOP_Lab_3_MarkupCompile.i.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/OOP_Lab_3_MarkupCompile.lref" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/OOP_Lab_3_MarkupCompile.lref" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/Views/SignInView.baml" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/Views/SignInView.baml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/Views/SignInView.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/Views/SignInView.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_Lab_3/obj/OOP_Lab_3.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/obj/OOP_Lab_3.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_Lab_3/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_Lab_3/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/obj/project.nuget.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="Git.Rebase.Settings">
-    <option name="NEW_BASE" value="master" />
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feature/sign-in-view" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -40,19 +61,16 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/OOP_Lab_3/Views/SignInView.xaml" />
-        <option value="$PROJECT_DIR$/OOP_Lab_3/MainWindow.xaml" />
         <option value="$PROJECT_DIR$/OOP_Lab_3/MyICommand.cs" />
         <option value="$PROJECT_DIR$/OOP_Lab_3/BindableBase.cs" />
-        <option value="$PROJECT_DIR$/OOP_Lab_3/ViewModels/SignInViewModel.cs" />
         <option value="$PROJECT_DIR$/OOP_Lab_3/Events/NavigationEvent.cs" />
         <option value="$PROJECT_DIR$/OOP_Lab_3/Events/SignInEvent.cs" />
         <option value="$PROJECT_DIR$/OOP_Lab_3/Events/NotificationEvent.cs" />
         <option value="$PROJECT_DIR$/OOP_Lab_3/Storage/StorageManager.cs" />
         <option value="$PROJECT_DIR$/OOP_Lab_3/Helpers/AbstractStorageManager.cs" />
-        <option value="$PROJECT_DIR$/OOP_Lab_3/ViewModels/MainWindowViewModel.cs" />
         <option value="$PROJECT_DIR$/OOP_Lab_3/Helpers/IStorageManager.cs" />
         <option value="$PROJECT_DIR$/OOP_Lab_3/Helpers/StorageManagerBase.cs" />
+        <option value="$PROJECT_DIR$/OOP_Lab_3/Models/Customer.cs" />
         <option value="$PROJECT_DIR$/OOP_Lab_3/Models/Order.cs" />
         <option value="$PROJECT_DIR$/OOP_Lab_3/Models/Product.cs" />
         <option value="$PROJECT_DIR$/OOP_Lab_3/Models/Shipment.cs" />
@@ -62,6 +80,7 @@
         <option value="$PROJECT_DIR$/OOP_Lab_3/IResourceModel.cs" />
         <option value="$PROJECT_DIR$/OOP_Lab_3/Interfaces/IResourceModel.cs" />
         <option value="$PROJECT_DIR$/OOP_Lab_3/Base/ResourceModelBase.cs" />
+        <option value="$PROJECT_DIR$/OOP_Lab_3/Storage/StorageOptions.cs" />
         <option value="$PROJECT_DIR$/OOP_Lab_3/Models/ResourceModels/CustomerResourceModel.cs" />
         <option value="$PROJECT_DIR$/OOP_Lab_3/Models/ResourceModels/OrderResourceModel.cs" />
         <option value="$PROJECT_DIR$/OOP_Lab_3/Models/ResourceModels/ProductResourceModel.cs" />
@@ -69,16 +88,17 @@
         <option value="$PROJECT_DIR$/OOP_Lab_3/Base/ModelBase.cs" />
         <option value="$PROJECT_DIR$/OOP_Lab_3/Base/StorageManagerBase.cs" />
         <option value="$PROJECT_DIR$/OOP_Lab_3/Storage/StorageManagers/CustomerStorageManager.cs" />
-        <option value="$PROJECT_DIR$/OOP_Lab_3/Base/GenericStorageManagerBase.cs" />
-        <option value="$PROJECT_DIR$/OOP_Lab_3/MainWindow.xaml.cs" />
+        <option value="$PROJECT_DIR$/OOP_Lab_3/Storage/Storage.cs" />
         <option value="$PROJECT_DIR$/OOP_Lab_3/Storage/StorageManagers/OrderStorageManager.cs" />
         <option value="$PROJECT_DIR$/OOP_Lab_3/Storage/StorageManagers/ProductStorageManager.cs" />
         <option value="$PROJECT_DIR$/OOP_Lab_3/Storage/StorageManagers/ShipmentStorageManager.cs" />
-        <option value="$PROJECT_DIR$/OOP_Lab_3/Models/User.cs" />
-        <option value="$PROJECT_DIR$/OOP_Lab_3/Models/Customer.cs" />
-        <option value="$PROJECT_DIR$/OOP_Lab_3/Storage/StorageManagers/UserStorageManager.cs" />
-        <option value="$PROJECT_DIR$/OOP_Lab_3/Storage/StorageOptions.cs" />
-        <option value="$PROJECT_DIR$/OOP_Lab_3/Storage/Storage.cs" />
+        <option value="$PROJECT_DIR$/OOP_Lab_3/MainWindow.xaml.cs" />
+        <option value="$PROJECT_DIR$/OOP_Lab_3/ViewModels/MainWindowViewModel.cs" />
+        <option value="$PROJECT_DIR$/OOP_Lab_3/MainWindow.xaml" />
+        <option value="$PROJECT_DIR$/OOP_Lab_3/Converters/LoginDataConverter.cs" />
+        <option value="$PROJECT_DIR$/OOP_Lab_3/App.xaml" />
+        <option value="$PROJECT_DIR$/OOP_Lab_3/Views/SignInView.xaml" />
+        <option value="$PROJECT_DIR$/OOP_Lab_3/ViewModels/SignInViewModel.cs" />
       </list>
     </option>
   </component>
@@ -119,100 +139,114 @@
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Sign In View&#10;- Created SignInView.xaml with basic styling and implementation of Sign In functionality for further usage&#10;- Created SignInViewModel.cs for using as DataContext&#10;- Code adjustments&#10;- Created LoginDataConverter.cs to properly pass data from view to viewModel on SignIn" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sign In View&#10;- Created SignInView.xaml with basic styling and implementation of Sign In functionality for further usage&#10;- Created SignInViewModel.cs for using as DataContext&#10;- Code adjustments&#10;- Created LoginDataConverter.cs to properly pass data from view to viewModel on SignIn" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="209" y="0" key="CommitChangelistDialog2" timestamp="1607605596935">
+    <state x="270" y="0" key="CommitChangelistDialog2" timestamp="1607676147123">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="209" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1607605596935" />
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1607604777633">
+    <state x="270" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1607676147123" />
+    <state x="518" y="247" width="445" height="195" key="Github.ShareDialog" timestamp="1607422077842">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1607604777633" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1607604777633">
+    <state x="518" y="247" width="445" height="195" key="Github.ShareDialog/0.0.1280.689@0.0.1280.689" timestamp="1607422077842" />
+    <state x="415" y="0" key="Github.UntrackedFilesDialog" timestamp="1607422098245">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1607604777633" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1607604777633">
+    <state x="415" y="0" key="Github.UntrackedFilesDialog/0.0.1280.689@0.0.1280.689" timestamp="1607422098245" />
+    <state width="1237" height="55" key="GridCell.Tab.0.bottom" timestamp="1607676147137">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1607604777633" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1607604777633">
+    <state width="1237" height="55" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1607676147137" />
+    <state width="1237" height="55" key="GridCell.Tab.0.center" timestamp="1607676147137">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1607604777633" />
-    <state width="1237" height="172" key="GridCell.Tab.1.bottom" timestamp="1607420775257">
+    <state width="1237" height="55" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1607676147137" />
+    <state width="1237" height="55" key="GridCell.Tab.0.left" timestamp="1607676147137">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="172" key="GridCell.Tab.1.bottom/0.0.1280.689@0.0.1280.689" timestamp="1607420775257" />
-    <state width="1237" height="172" key="GridCell.Tab.1.center" timestamp="1607420775257">
+    <state width="1237" height="55" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1607676147137" />
+    <state width="1237" height="55" key="GridCell.Tab.0.right" timestamp="1607676147137">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="172" key="GridCell.Tab.1.center/0.0.1280.689@0.0.1280.689" timestamp="1607420775257" />
-    <state width="1237" height="172" key="GridCell.Tab.1.left" timestamp="1607420775257">
+    <state width="1237" height="55" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1607676147137" />
+    <state width="1237" height="172" key="GridCell.Tab.1.bottom" timestamp="1607421490351">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="172" key="GridCell.Tab.1.left/0.0.1280.689@0.0.1280.689" timestamp="1607420775257" />
-    <state width="1237" height="172" key="GridCell.Tab.1.right" timestamp="1607420775257">
+    <state width="1237" height="172" key="GridCell.Tab.1.bottom/0.0.1280.689@0.0.1280.689" timestamp="1607421490351" />
+    <state width="1237" height="172" key="GridCell.Tab.1.center" timestamp="1607421490350">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="172" key="GridCell.Tab.1.right/0.0.1280.689@0.0.1280.689" timestamp="1607420775257" />
-    <state width="1237" height="172" key="GridCell.Tab.2.bottom" timestamp="1607420775257">
+    <state width="1237" height="172" key="GridCell.Tab.1.center/0.0.1280.689@0.0.1280.689" timestamp="1607421490350" />
+    <state width="1237" height="172" key="GridCell.Tab.1.left" timestamp="1607421490350">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="172" key="GridCell.Tab.2.bottom/0.0.1280.689@0.0.1280.689" timestamp="1607420775257" />
-    <state width="1237" height="172" key="GridCell.Tab.2.center" timestamp="1607420775257">
+    <state width="1237" height="172" key="GridCell.Tab.1.left/0.0.1280.689@0.0.1280.689" timestamp="1607421490350" />
+    <state width="1237" height="172" key="GridCell.Tab.1.right" timestamp="1607421490350">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="172" key="GridCell.Tab.2.center/0.0.1280.689@0.0.1280.689" timestamp="1607420775257" />
-    <state width="1237" height="172" key="GridCell.Tab.2.left" timestamp="1607420775257">
+    <state width="1237" height="172" key="GridCell.Tab.1.right/0.0.1280.689@0.0.1280.689" timestamp="1607421490350" />
+    <state width="1237" height="172" key="GridCell.Tab.2.bottom" timestamp="1607421490351">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="172" key="GridCell.Tab.2.left/0.0.1280.689@0.0.1280.689" timestamp="1607420775257" />
-    <state width="1237" height="172" key="GridCell.Tab.2.right" timestamp="1607420775257">
+    <state width="1237" height="172" key="GridCell.Tab.2.bottom/0.0.1280.689@0.0.1280.689" timestamp="1607421490351" />
+    <state width="1237" height="172" key="GridCell.Tab.2.center" timestamp="1607421490351">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="172" key="GridCell.Tab.2.right/0.0.1280.689@0.0.1280.689" timestamp="1607420775257" />
-    <state width="1237" height="172" key="GridCell.Tab.3.bottom" timestamp="1607420775258">
+    <state width="1237" height="172" key="GridCell.Tab.2.center/0.0.1280.689@0.0.1280.689" timestamp="1607421490351" />
+    <state width="1237" height="172" key="GridCell.Tab.2.left" timestamp="1607421490351">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="172" key="GridCell.Tab.3.bottom/0.0.1280.689@0.0.1280.689" timestamp="1607420775258" />
-    <state width="1237" height="172" key="GridCell.Tab.3.center" timestamp="1607420775258">
+    <state width="1237" height="172" key="GridCell.Tab.2.left/0.0.1280.689@0.0.1280.689" timestamp="1607421490351" />
+    <state width="1237" height="172" key="GridCell.Tab.2.right" timestamp="1607421490351">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="172" key="GridCell.Tab.3.center/0.0.1280.689@0.0.1280.689" timestamp="1607420775258" />
-    <state width="1237" height="172" key="GridCell.Tab.3.left" timestamp="1607420775257">
+    <state width="1237" height="172" key="GridCell.Tab.2.right/0.0.1280.689@0.0.1280.689" timestamp="1607421490351" />
+    <state width="1237" height="172" key="GridCell.Tab.3.bottom" timestamp="1607421490352">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="172" key="GridCell.Tab.3.left/0.0.1280.689@0.0.1280.689" timestamp="1607420775257" />
-    <state width="1237" height="172" key="GridCell.Tab.3.right" timestamp="1607420775258">
+    <state width="1237" height="172" key="GridCell.Tab.3.bottom/0.0.1280.689@0.0.1280.689" timestamp="1607421490352" />
+    <state width="1237" height="172" key="GridCell.Tab.3.center" timestamp="1607421490351">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="172" key="GridCell.Tab.3.right/0.0.1280.689@0.0.1280.689" timestamp="1607420775258" />
-    <state width="1237" height="172" key="GridCell.Tab.4.bottom" timestamp="1607420775259">
+    <state width="1237" height="172" key="GridCell.Tab.3.center/0.0.1280.689@0.0.1280.689" timestamp="1607421490351" />
+    <state width="1237" height="172" key="GridCell.Tab.3.left" timestamp="1607421490351">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="172" key="GridCell.Tab.4.bottom/0.0.1280.689@0.0.1280.689" timestamp="1607420775259" />
-    <state width="1237" height="172" key="GridCell.Tab.4.center" timestamp="1607420775258">
+    <state width="1237" height="172" key="GridCell.Tab.3.left/0.0.1280.689@0.0.1280.689" timestamp="1607421490351" />
+    <state width="1237" height="172" key="GridCell.Tab.3.right" timestamp="1607421490352">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="172" key="GridCell.Tab.4.center/0.0.1280.689@0.0.1280.689" timestamp="1607420775258" />
-    <state width="1237" height="172" key="GridCell.Tab.4.left" timestamp="1607420775258">
+    <state width="1237" height="172" key="GridCell.Tab.3.right/0.0.1280.689@0.0.1280.689" timestamp="1607421490352" />
+    <state width="1237" height="172" key="GridCell.Tab.4.bottom" timestamp="1607421490352">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="172" key="GridCell.Tab.4.left/0.0.1280.689@0.0.1280.689" timestamp="1607420775258" />
-    <state width="1237" height="172" key="GridCell.Tab.4.right" timestamp="1607420775259">
+    <state width="1237" height="172" key="GridCell.Tab.4.bottom/0.0.1280.689@0.0.1280.689" timestamp="1607421490352" />
+    <state width="1237" height="172" key="GridCell.Tab.4.center" timestamp="1607421490352">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="172" key="GridCell.Tab.4.right/0.0.1280.689@0.0.1280.689" timestamp="1607420775258" />
-    <state x="411" y="0" key="RiderGenerateDialog" timestamp="1607605873881">
+    <state width="1237" height="172" key="GridCell.Tab.4.center/0.0.1280.689@0.0.1280.689" timestamp="1607421490352" />
+    <state width="1237" height="172" key="GridCell.Tab.4.left" timestamp="1607421490352">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="411" y="0" key="RiderGenerateDialog/0.0.1280.689@0.0.1280.689" timestamp="1607605873881" />
-    <state x="274" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1607605027090">
+    <state width="1237" height="172" key="GridCell.Tab.4.left/0.0.1280.689@0.0.1280.689" timestamp="1607421490352" />
+    <state width="1237" height="172" key="GridCell.Tab.4.right" timestamp="1607421490352">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="274" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1280.689@0.0.1280.689" timestamp="1607605027090" />
+    <state width="1237" height="172" key="GridCell.Tab.4.right/0.0.1280.689@0.0.1280.689" timestamp="1607421490352" />
+    <state x="411" y="0" key="RiderGenerateDialog" timestamp="1607417175120">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="411" y="0" key="RiderGenerateDialog/0.0.1280.689@0.0.1280.689" timestamp="1607417175120" />
+    <state x="274" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1607418902989">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="274" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1280.689@0.0.1280.689" timestamp="1607418902989" />
+    <state x="282" y="72" width="700" height="530" key="recent.locations.popup" timestamp="1607464829049">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="282" y="72" width="700" height="530" key="recent.locations.popup/0.0.1280.689@0.0.1280.689" timestamp="1607464829049" />
     <state x="303" y="10" width="672" height="678" key="search.everywhere.popup" timestamp="1607371657661">
       <screen x="0" y="0" width="1280" height="689" />
     </state>

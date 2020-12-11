@@ -7,6 +7,70 @@
              mc:Ignorable="d"
              d:DesignHeight="300" d:DesignWidth="300">
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+
+        <TextBlock
+            Grid.Column="1"
+            Grid.ColumnSpan="2"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center"
+            FontSize="30">
+            Bread's Bakery
+        </TextBlock>
+
+        <Label
+            Grid.Row="1"
+            Grid.Column="1"
+            Height="30"
+            Content="Login" />
+        <TextBox
+            Grid.Row="1"
+            Grid.Column="2"
+            Height="20"
+            x:Name="LoginBox"
+            Background="#FF836C6C"
+            Foreground="#FFEDE1E1" />
+
+        <Label
+            Grid.Row="2"
+            Grid.Column="1"
+            Height="30"
+            Content="Password" />
+        <PasswordBox
+            Grid.Row="2"
+            Grid.Column="2"
+            Height="20"
+            x:Name="PasswordBoxBox"
+            Background="#FF836C6C"
+            Foreground="#FFEDE1E1" />
+
+        <Button
+            Grid.Row="3"
+            Grid.Column="2"
+            Height="20"
+            Width="50"
+            Content="Sign In"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            x:Name="SignInButton"
+            Command="{Binding SignInCommand}">
+            <Button.CommandParameter>
+                <MultiBinding Converter="{StaticResource LoginDataConverter}">
+                    <Binding ElementName="LoginBox"/>
+                    <Binding ElementName="PasswordBoxBox"/>
+                </MultiBinding>
+            </Button.CommandParameter>
+        </Button>
     </Grid>
 </UserControl>

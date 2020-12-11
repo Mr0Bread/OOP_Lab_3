@@ -19,12 +19,6 @@ namespace OOP_Lab_3.ViewModels
         public MainWindowViewModel()
         {
             CurrentViewModel = new SignInViewModel();
-            InitializeStorage();
-        }
-
-        private void InitializeStorage()
-        {
-            
         }
     }
 }
