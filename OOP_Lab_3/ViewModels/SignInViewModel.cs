@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Controls;
 using OOP_Lab_3.Base;
@@ -31,7 +32,7 @@ namespace OOP_Lab_3.ViewModels
                 return;
             }
 
-            if (userList.Any(customer => customer.Login == login && customer.Password == password))
+            if (userList.Any(user => user.Login == login && user.Password == password))
             {
                 SignInEvent.SignIn(true);
                 return;

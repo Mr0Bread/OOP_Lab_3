@@ -30,6 +30,12 @@ namespace OOP_Lab_3.Storage.StorageManagers
             }
         }
 
+        public new void AddItemToList(User user)
+        {
+            user.Id = Instance.Counter;
+            base.AddItemToList(user);
+        }
+
         private UserStorageManager()
         {
             FileName = "users.dat";

@@ -65,6 +65,7 @@
           <e p="SignInViewModel.cs" t="Include" />
         </e>
         <e p="Views" t="Include">
+          <e p="MainMenuView.xaml.cs" t="Include" />
           <e p="SignInView.xaml" t="Include" />
           <e p="SignInView.xaml.cs" t="Include" />
         </e>

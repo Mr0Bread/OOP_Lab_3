@@ -1,5 +1,6 @@
 ﻿using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
+using OOP_Lab_3.Models;
 using OOP_Lab_3.Storage.StorageManagers;
 
 namespace OOP_Lab_3.Storage
@@ -32,6 +33,11 @@ namespace OOP_Lab_3.Storage
             ProductStorageManager.Instance.Counter = storageOptions.ProductsCounterState;
             ShipmentStorageManager.Instance.Counter = storageOptions.ShipmentsCounterState;
             UserStorageManager.Instance.Counter = storageOptions.UsersCounterState;
+
+            if (UserStorageManager.Instance.Counter == 0)
+            {
+                InitializeUserStorage();
+            }
         }
 
         public static void SaveStorageStateToOptions()
@@ -60,6 +66,12 @@ namespace OOP_Lab_3.Storage
             var binaryFormatter = new BinaryFormatter();
             binaryFormatter.Serialize(storageOptionsFile, StorageOptions.Instance);
             storageOptionsFile.Close();
+        }
+
+        private static void InitializeUserStorage()
+        {
+            var user = new User {Login = "admin", Password = "admin"};
+            UserStorageManager.Instance.AddItemToList(user);
         }
     }
 }

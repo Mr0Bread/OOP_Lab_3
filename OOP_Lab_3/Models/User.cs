@@ -1,7 +1,9 @@
-﻿using OOP_Lab_3.Base;
+﻿using System;
+using OOP_Lab_3.Base;
 
 namespace OOP_Lab_3.Models
 {
+    [Serializable]
     public class User : ModelBase
     {
         private string _login;
