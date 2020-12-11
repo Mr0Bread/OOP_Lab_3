@@ -21,6 +21,7 @@ namespace OOP_Lab_3.Storage
                 CustomerStorageManager.Instance.Counter = 0;
                 ProductStorageManager.Instance.Counter = 0;
                 ShipmentStorageManager.Instance.Counter = 0;
+                UserStorageManager.Instance.Counter = 0;
                 return;
             }
 
@@ -30,6 +31,7 @@ namespace OOP_Lab_3.Storage
             CustomerStorageManager.Instance.Counter = storageOptions.CustomersCounterState;
             ProductStorageManager.Instance.Counter = storageOptions.ProductsCounterState;
             ShipmentStorageManager.Instance.Counter = storageOptions.ShipmentsCounterState;
+            UserStorageManager.Instance.Counter = storageOptions.UsersCounterState;
         }
 
         public static void SaveStorageStateToOptions()
@@ -38,6 +40,7 @@ namespace OOP_Lab_3.Storage
             StorageOptions.Instance.CustomersCounterState = CustomerStorageManager.Instance.Counter;
             StorageOptions.Instance.ProductsCounterState = ProductStorageManager.Instance.Counter;
             StorageOptions.Instance.ShipmentsCounterState = ShipmentStorageManager.Instance.Counter;
+            StorageOptions.Instance.UsersCounterState = UserStorageManager.Instance.Counter;
 
             UpdateStorageOptionsFile();
         }

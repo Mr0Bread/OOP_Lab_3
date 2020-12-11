@@ -9,6 +9,7 @@ namespace OOP_Lab_3.Storage
         public int OrdersCounterState;
         public int ProductsCounterState;
         public int ShipmentsCounterState;
+        public int UsersCounterState;
         
         private static readonly object Padlock = new object();
         private static StorageOptions _instance;
