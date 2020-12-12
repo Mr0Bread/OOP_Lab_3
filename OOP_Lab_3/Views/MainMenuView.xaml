@@ -69,6 +69,6 @@
             Grid.Row="3"
             Command="{Binding NavCommand}"
             CommandParameter="{x:Static constants:NavDestination.Users}" />
-
+        
     </Grid>
 </UserControl>
