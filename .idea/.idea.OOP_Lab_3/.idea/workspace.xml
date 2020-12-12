@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="164b9f45-7bb4-40aa-9013-eca6c0dcbe2a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/OOP_Lab_3/Constants/NavDestination.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.OOP_Lab_3/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.OOP_Lab_3/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.OOP_Lab_3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.OOP_Lab_3/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OOP_Lab_3/ViewModels/MainMenuViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/ViewModels/MainMenuViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_Lab_3/ViewModels/MainWindowViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/ViewModels/MainWindowViewModel.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OOP_Lab_3/Views/MainMenuView.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/Views/MainMenuView.xaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/MainWindow.g.i.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/MainWindow.g.i.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/OOP_Lab_3.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/OOP_Lab_3.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/OOP_Lab_3_MarkupCompile.i.cache" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/OOP_Lab_3_MarkupCompile.i.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +22,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feature/main-menu-view" />
+        <entry key="$PROJECT_DIR$" value="feature/users-view-and-view-model" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -78,13 +75,15 @@
         <option value="$PROJECT_DIR$/OOP_Lab_3/Storage/StorageManagers/UserStorageManager.cs" />
         <option value="$PROJECT_DIR$/OOP_Lab_3/Storage/Storage.cs" />
         <option value="$PROJECT_DIR$/OOP_Lab_3/Views/MainMenuView.xaml.cs" />
-        <option value="$PROJECT_DIR$/OOP_Lab_3/ViewModels/MainWindowViewModel.cs" />
         <option value="$PROJECT_DIR$/OOP_Lab_3/MainWindow.xaml" />
         <option value="$PROJECT_DIR$/OOP_Lab_3/Enums/NavigationDestinations.cs" />
         <option value="$PROJECT_DIR$/OOP_Lab_3/Constants/NavDestination.cs" />
         <option value="$PROJECT_DIR$/OOP_Lab_3/App.xaml" />
-        <option value="$PROJECT_DIR$/OOP_Lab_3/Views/MainMenuView.xaml" />
+        <option value="$PROJECT_DIR$/OOP_Lab_3/Views/UsersView.xaml" />
+        <option value="$PROJECT_DIR$/OOP_Lab_3/ViewModels/UsersViewModel.cs" />
         <option value="$PROJECT_DIR$/OOP_Lab_3/ViewModels/MainMenuViewModel.cs" />
+        <option value="$PROJECT_DIR$/OOP_Lab_3/Views/MainMenuView.xaml" />
+        <option value="$PROJECT_DIR$/OOP_Lab_3/ViewModels/MainWindowViewModel.cs" />
       </list>
     </option>
   </component>
@@ -129,13 +128,14 @@
     <MESSAGE value="Sign In View&#10;- Created SignInView.xaml with basic styling and implementation of Sign In functionality for further usage&#10;- Created SignInViewModel.cs for using as DataContext&#10;- Code adjustments&#10;- Created LoginDataConverter.cs to properly pass data from view to viewModel on SignIn" />
     <MESSAGE value="Sign In handling implemented" />
     <MESSAGE value="Main Menu View&#10;- Created layout and placed all buttons that will be used in future" />
-    <option name="LAST_COMMIT_MESSAGE" value="Main Menu View&#10;- Created layout and placed all buttons that will be used in future" />
+    <MESSAGE value="Main Menu Navigation&#10;- Created static class with constants to store Navigation destinations in string form instead of using enums&#10;- Used constants in both View and ViewModel to avoid code duplicate and errors in future&#10;- Added Command and CommandParameter to every button in Main Menu&#10;- Added Skeleton for navigation handling in MainMenuViewModel.cs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Main Menu Navigation&#10;- Created static class with constants to store Navigation destinations in string form instead of using enums&#10;- Used constants in both View and ViewModel to avoid code duplicate and errors in future&#10;- Added Command and CommandParameter to every button in Main Menu&#10;- Added Skeleton for navigation handling in MainMenuViewModel.cs" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="270" y="0" key="CommitChangelistDialog2" timestamp="1607724914230">
+    <state x="270" y="0" key="CommitChangelistDialog2" timestamp="1607767730430">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="270" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1607724914230" />
+    <state x="270" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1607767730430" />
     <state x="518" y="247" width="445" height="195" key="Github.ShareDialog" timestamp="1607422077842">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
@@ -144,22 +144,22 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="415" y="0" key="Github.UntrackedFilesDialog/0.0.1280.689@0.0.1280.689" timestamp="1607422098245" />
-    <state width="1237" height="100" key="GridCell.Tab.0.bottom" timestamp="1607724847263">
+    <state width="1237" height="100" key="GridCell.Tab.0.bottom" timestamp="1607767587979">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="100" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1607724847263" />
-    <state width="1237" height="100" key="GridCell.Tab.0.center" timestamp="1607724847263">
+    <state width="1237" height="100" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1607767587979" />
+    <state width="1237" height="100" key="GridCell.Tab.0.center" timestamp="1607767587979">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="100" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1607724847263" />
-    <state width="1237" height="100" key="GridCell.Tab.0.left" timestamp="1607724847263">
+    <state width="1237" height="100" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1607767587979" />
+    <state width="1237" height="100" key="GridCell.Tab.0.left" timestamp="1607767587978">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="100" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1607724847263" />
-    <state width="1237" height="100" key="GridCell.Tab.0.right" timestamp="1607724847263">
+    <state width="1237" height="100" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1607767587978" />
+    <state width="1237" height="100" key="GridCell.Tab.0.right" timestamp="1607767587979">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="100" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1607724847263" />
+    <state width="1237" height="100" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1607767587979" />
     <state width="1237" height="172" key="GridCell.Tab.1.bottom" timestamp="1607421490351">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
@@ -228,10 +228,10 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="411" y="0" key="RiderGenerateDialog/0.0.1280.689@0.0.1280.689" timestamp="1607417175120" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1607724916015">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1607767733720">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.689@0.0.1280.689" timestamp="1607724916015" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.689@0.0.1280.689" timestamp="1607767733720" />
     <state x="274" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1607766714833">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
