@@ -4,6 +4,7 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:local="clr-namespace:OOP_Lab_3.Views"
+             xmlns:constants="clr-namespace:OOP_Lab_3.Constants"
              mc:Ignorable="d"
              d:DesignHeight="300" d:DesignWidth="300">
     <Grid>
@@ -32,12 +33,42 @@
             Main Menu
         </TextBlock>
 
-        <Button Width="140" Content="Orders" Grid.Row="1" Grid.Column="1" />
-        <Button Width="140" Content="Products" Grid.Row="1" Grid.Column="2" />
-        <Button Width="140" Content="Customers" Grid.Row="1" Grid.Column="3" />
-        <Button Width="140" Content="Shipments" Grid.Row="1" Grid.Column="4" />
+        <Button
+            Width="140"
+            Content="Orders"
+            Grid.Row="1"
+            Grid.Column="1"
+            Command="{Binding NavCommand}"
+            CommandParameter="{x:Static constants:NavDestination.Orders}" />
+        <Button
+            Width="140"
+            Content="Products"
+            Grid.Row="1"
+            Grid.Column="2"
+            Command="{Binding NavCommand}"
+            CommandParameter="{x:Static constants:NavDestination.Products}" />
+        <Button
+            Width="140"
+            Content="Customers"
+            Grid.Row="1"
+            Grid.Column="3"
+            Command="{Binding NavCommand}"
+            CommandParameter="{x:Static constants:NavDestination.Customers}" />
+        <Button
+            Width="140"
+            Content="Shipments"
+            Grid.Row="1"
+            Grid.Column="4"
+            Command="{Binding NavCommand}"
+            CommandParameter="{x:Static constants:NavDestination.Shipments}" />
 
-        <Button Content="Users" Grid.Column="2" Grid.ColumnSpan="2" Grid.Row="3"/>
+        <Button
+            Content="Users"
+            Grid.Column="2"
+            Grid.ColumnSpan="2"
+            Grid.Row="3"
+            Command="{Binding NavCommand}"
+            CommandParameter="{x:Static constants:NavDestination.Users}" />
 
     </Grid>
 </UserControl>
