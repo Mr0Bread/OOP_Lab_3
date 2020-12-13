@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using OOP_Lab_3.Base;
 using OOP_Lab_3.Constants;
 using OOP_Lab_3.Events;
@@ -37,33 +38,15 @@ namespace OOP_Lab_3.ViewModels
 
         private void HandleNavigation(string destination)
         {
-            switch (destination)
-            {
-                case NavDestination.Order:
-                    break;
-                case NavDestination.Orders:
-                    break;
-                case NavDestination.Product:
-                    break;
-                case NavDestination.Products:
-                    break;
-                case NavDestination.Customer:
-                    break;
-                case NavDestination.Customers:
-                    break;
-                case NavDestination.User:
-                    break;
-                case NavDestination.Users:
-                    CurrentViewModel = new UsersViewModel();
-                    break;
-                case NavDestination.Shipment:
-                    break;
-                case NavDestination.Shipments:
-                    break;
-                case NavDestination.MainMenu:
-                    CurrentViewModel = new MainMenuViewModel();
-                    break;
-            }
+            var view = Navigation.Navigation.Pages
+                .FirstOrDefault(x => x.ViewName == destination);
+            
+            var type = (from assembly in AppDomain.CurrentDomain.GetAssemblies()
+                from t in assembly.GetTypes()
+                where t.Name == view.ViewModelName
+                select t).FirstOrDefault();
+            
+            CurrentViewModel = (BindableBase) Activator.CreateInstance(type);
         }
     }
 }
