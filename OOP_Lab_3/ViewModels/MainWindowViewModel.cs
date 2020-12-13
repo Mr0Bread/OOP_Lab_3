@@ -34,6 +34,10 @@ namespace OOP_Lab_3.ViewModels
             {
                 CurrentViewModel = _mainMenuViewModel;
             }
+            else
+            {
+                NavigationEvent.GoTo(NavDestination.SignIn);
+            }
         }
 
         private void HandleNavigation(string destination)

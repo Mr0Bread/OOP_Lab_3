@@ -7,7 +7,11 @@
         xmlns:views="clr-namespace:OOP_Lab_3.Views"
         xmlns:viewModels="clr-namespace:OOP_Lab_3.ViewModels"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800" MinHeight="450" MinWidth="800">
+        Title="Bread's Bakery"
+        Height="450"
+        Width="800"
+        MinHeight="450"
+        MinWidth="800">
 
     <Window.DataContext>
         <viewModels:MainWindowViewModel />
@@ -55,7 +59,7 @@
                 Property="Foreground"
                 Value="AliceBlue" />
         </Style>
-        
+
         <Style TargetType="{x:Type PasswordBox}">
             <Setter
                 Property="Background"
