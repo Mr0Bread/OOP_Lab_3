@@ -5,30 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="164b9f45-7bb4-40aa-9013-eca6c0dcbe2a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/OOP_Lab_3/ViewModels/UsersViewModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP_Lab_3/Views/UsersView.xaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP_Lab_3/Navigation/Navigation.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP_Lab_3/Navigation/View.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.OOP_Lab_3/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.OOP_Lab_3/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.OOP_Lab_3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.OOP_Lab_3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP_Lab_3/Constants/NavDestination.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/Constants/NavDestination.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP_Lab_3/MainWindow.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/MainWindow.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_Lab_3/MainWindow.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/MainWindow.xaml.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OOP_Lab_3/ViewModels/MainWindowViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/ViewModels/MainWindowViewModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP_Lab_3/Views/MainMenuView.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/Views/MainMenuView.xaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP_Lab_3/Views/SignInView.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/Views/SignInView.xaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OOP_Lab_3/bin/Debug/netcoreapp3.1-windows/OOP_Lab_3.dll" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/bin/Debug/netcoreapp3.1-windows/OOP_Lab_3.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OOP_Lab_3/bin/Debug/netcoreapp3.1-windows/OOP_Lab_3.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/bin/Debug/netcoreapp3.1-windows/OOP_Lab_3.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/MainWindow.baml" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/MainWindow.baml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/MainWindow.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/MainWindow.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/MainWindow.g.i.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/MainWindow.g.i.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/OOP_Lab_3.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/OOP_Lab_3.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/OOP_Lab_3.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/OOP_Lab_3.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/OOP_Lab_3.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/OOP_Lab_3.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/OOP_Lab_3.dll" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/OOP_Lab_3.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/OOP_Lab_3.g.resources" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/OOP_Lab_3.g.resources" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/OOP_Lab_3.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/OOP_Lab_3.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/OOP_Lab_3_MarkupCompile.cache" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/OOP_Lab_3_MarkupCompile.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/OOP_Lab_3_MarkupCompile.i.cache" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/OOP_Lab_3_MarkupCompile.i.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/OOP_Lab_3_MarkupCompile.lref" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/OOP_Lab_3_MarkupCompile.lref" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/Views/SignInView.baml" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/Views/SignInView.baml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/Views/SignInView.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_Lab_3/obj/Debug/netcoreapp3.1-windows/Views/SignInView.g.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +35,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feature/main-menu-navigation" />
+        <entry key="$PROJECT_DIR$" value="feature/users-view-and-view-model" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -87,7 +81,6 @@
         <option value="$PROJECT_DIR$/OOP_Lab_3/Storage/StorageManagers/OrderStorageManager.cs" />
         <option value="$PROJECT_DIR$/OOP_Lab_3/Storage/StorageManagers/ProductStorageManager.cs" />
         <option value="$PROJECT_DIR$/OOP_Lab_3/Storage/StorageManagers/ShipmentStorageManager.cs" />
-        <option value="$PROJECT_DIR$/OOP_Lab_3/MainWindow.xaml.cs" />
         <option value="$PROJECT_DIR$/OOP_Lab_3/Converters/LoginDataConverter.cs" />
         <option value="$PROJECT_DIR$/OOP_Lab_3/ViewModels/SignInViewModel.cs" />
         <option value="$PROJECT_DIR$/OOP_Lab_3/Storage/StorageManagers/UserStorageManager.cs" />
@@ -102,7 +95,11 @@
         <option value="$PROJECT_DIR$/OOP_Lab_3/Constants/NavDestination.cs" />
         <option value="$PROJECT_DIR$/OOP_Lab_3/Views/UsersView.xaml" />
         <option value="$PROJECT_DIR$/OOP_Lab_3/ViewModels/UsersViewModel.cs" />
+        <option value="$PROJECT_DIR$/OOP_Lab_3/Navigation/Page.cs" />
+        <option value="$PROJECT_DIR$/OOP_Lab_3/Navigation/Navigation.cs" />
+        <option value="$PROJECT_DIR$/OOP_Lab_3/Navigation/View.cs" />
         <option value="$PROJECT_DIR$/OOP_Lab_3/ViewModels/MainWindowViewModel.cs" />
+        <option value="$PROJECT_DIR$/OOP_Lab_3/MainWindow.xaml.cs" />
       </list>
     </option>
   </component>
@@ -149,13 +146,14 @@
     <MESSAGE value="Main Menu View&#10;- Created layout and placed all buttons that will be used in future" />
     <MESSAGE value="Main Menu Navigation&#10;- Created static class with constants to store Navigation destinations in string form instead of using enums&#10;- Used constants in both View and ViewModel to avoid code duplicate and errors in future&#10;- Added Command and CommandParameter to every button in Main Menu&#10;- Added Skeleton for navigation handling in MainMenuViewModel.cs" />
     <MESSAGE value="Main Menu Navigation&#10;- Fixes in implementation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Main Menu Navigation&#10;- Fixes in implementation" />
+    <MESSAGE value="Users view and User View Model&#10;- Implemented all mandatory functionality" />
+    <option name="LAST_COMMIT_MESSAGE" value="Users view and User View Model&#10;- Implemented all mandatory functionality" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="270" y="0" key="CommitChangelistDialog2" timestamp="1607768609940">
+    <state x="270" y="0" key="CommitChangelistDialog2" timestamp="1607846846835">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="270" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1607768609940" />
+    <state x="270" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1607846846835" />
     <state x="518" y="247" width="445" height="195" key="Github.ShareDialog" timestamp="1607422077842">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
@@ -164,22 +162,22 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="415" y="0" key="Github.UntrackedFilesDialog/0.0.1280.689@0.0.1280.689" timestamp="1607422098245" />
-    <state width="1237" height="160" key="GridCell.Tab.0.bottom" timestamp="1607799566556">
+    <state width="1237" height="37" key="GridCell.Tab.0.bottom" timestamp="1607853600032">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="160" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1607799566556" />
-    <state width="1237" height="160" key="GridCell.Tab.0.center" timestamp="1607799566556">
+    <state width="1237" height="37" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1607853600032" />
+    <state width="1237" height="37" key="GridCell.Tab.0.center" timestamp="1607853600031">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="160" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1607799566556" />
-    <state width="1237" height="160" key="GridCell.Tab.0.left" timestamp="1607799566555">
+    <state width="1237" height="37" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1607853600031" />
+    <state width="1237" height="37" key="GridCell.Tab.0.left" timestamp="1607853600031">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="160" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1607799566555" />
-    <state width="1237" height="160" key="GridCell.Tab.0.right" timestamp="1607799566556">
+    <state width="1237" height="37" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1607853600031" />
+    <state width="1237" height="37" key="GridCell.Tab.0.right" timestamp="1607853600031">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="160" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1607799566556" />
+    <state width="1237" height="37" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1607853600031" />
     <state width="1237" height="172" key="GridCell.Tab.1.bottom" timestamp="1607421490351">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
@@ -244,14 +242,14 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state width="1237" height="172" key="GridCell.Tab.4.right/0.0.1280.689@0.0.1280.689" timestamp="1607421490352" />
-    <state x="411" y="0" key="RiderGenerateDialog" timestamp="1607417175120">
+    <state x="411" y="0" key="RiderGenerateDialog" timestamp="1607847153829">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="411" y="0" key="RiderGenerateDialog/0.0.1280.689@0.0.1280.689" timestamp="1607417175120" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1607768613483">
+    <state x="411" y="0" key="RiderGenerateDialog/0.0.1280.689@0.0.1280.689" timestamp="1607847153829" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1607846852246">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.689@0.0.1280.689" timestamp="1607768613483" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.689@0.0.1280.689" timestamp="1607846852246" />
     <state x="274" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1607766714833">
       <screen x="0" y="0" width="1280" height="689" />
     </state>

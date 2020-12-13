@@ -12,8 +12,11 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using OOP_Lab_3.Constants;
 using OOP_Lab_3.Models;
+using OOP_Lab_3.Navigation;
 using OOP_Lab_3.Storage.StorageManagers;
+using OOP_Lab_3.ViewModels;
 
 namespace OOP_Lab_3
 {
@@ -25,7 +28,30 @@ namespace OOP_Lab_3
         public MainWindow()
         {
             InitializeComponent();
-            Storage.Storage.InitializeStorage();
+            InitializeApplication();
+        }
+
+        private async void InitializeApplication()
+        {
+            await InitializeNavigation();
+            await InitializeStorage();
+        }
+
+        private async Task InitializeStorage()
+        {
+            await Task.Run(Storage.Storage.InitializeStorage);
+        }
+
+        private async Task InitializeNavigation()
+        {
+            await Task.Run(() =>
+            {
+                Navigation.Navigation.Pages = new List<View>
+                {
+                    new View(NavDestination.MainMenu, nameof(MainMenuViewModel)),
+                    new View(NavDestination.Users, nameof(UsersViewModel))
+                };
+            });
         }
     }
 }
