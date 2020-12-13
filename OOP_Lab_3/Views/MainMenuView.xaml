@@ -5,6 +5,7 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:local="clr-namespace:OOP_Lab_3.Views"
              xmlns:constants="clr-namespace:OOP_Lab_3.Constants"
+             xmlns:system="clr-namespace:System;assembly=System.Runtime"
              mc:Ignorable="d"
              d:DesignHeight="300" d:DesignWidth="300">
     <Grid>
@@ -24,6 +25,17 @@
             <RowDefinition Height="50" />
             <RowDefinition Height="60" />
         </Grid.RowDefinitions>
+
+        <Button 
+            Grid.Column="1"
+            Width="60"
+            Height="40"
+            Content="Sign Out"
+            Command="{Binding SignOutCommand}" >
+            <Button.CommandParameter>
+                <system:Boolean>True</system:Boolean>
+            </Button.CommandParameter>
+        </Button>
 
         <TextBlock
             Grid.Column="1"
@@ -70,6 +82,6 @@
             Grid.Row="3"
             Command="{Binding NavCommand}"
             CommandParameter="{x:Static constants:NavDestination.Users}" />
-        
+
     </Grid>
 </UserControl>

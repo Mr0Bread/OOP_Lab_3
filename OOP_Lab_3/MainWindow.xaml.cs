@@ -49,7 +49,8 @@ namespace OOP_Lab_3
                 Navigation.Navigation.Pages = new List<View>
                 {
                     new View(NavDestination.MainMenu, nameof(MainMenuViewModel)),
-                    new View(NavDestination.Users, nameof(UsersViewModel))
+                    new View(NavDestination.Users, nameof(UsersViewModel)),
+                    new View(NavDestination.SignIn, nameof(SignInViewModel))
                 };
             });
         }
