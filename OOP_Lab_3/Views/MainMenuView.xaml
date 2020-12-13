@@ -29,7 +29,8 @@
             Grid.Column="1"
             Grid.ColumnSpan="4"
             VerticalAlignment="Center"
-            HorizontalAlignment="Center">
+            HorizontalAlignment="Center"
+            FontSize="30">
             Main Menu
         </TextBlock>
 

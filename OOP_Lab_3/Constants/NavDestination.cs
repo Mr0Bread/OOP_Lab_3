@@ -12,5 +12,6 @@
         public const string Shipments = "Shipments";
         public const string User = "User";
         public const string Users = "Users";
+        public const string MainMenu = "MainMenu";
     }
 }

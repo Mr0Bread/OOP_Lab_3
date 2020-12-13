@@ -22,6 +22,49 @@
             <views:MainMenuView />
         </DataTemplate>
 
+        <DataTemplate DataType="{x:Type viewModels:UsersViewModel}">
+            <views:UsersView />
+        </DataTemplate>
+
+        <Style TargetType="{x:Type Label}">
+            <Setter
+                Property="Foreground"
+                Value="AliceBlue" />
+        </Style>
+
+        <Style TargetType="{x:Type TextBlock}">
+            <Setter
+                Property="Background"
+                Value="#FF836C6C" />
+            <Setter
+                Property="Foreground"
+                Value="#FFEDE1E1" />
+        </Style>
+
+        <Style TargetType="{x:Type ListBox}">
+            <Setter
+                Property="Background"
+                Value="#302c2c" />
+        </Style>
+
+        <Style TargetType="{x:Type TextBox}">
+            <Setter
+                Property="Background"
+                Value="#302c2c" />
+            <Setter
+                Property="Foreground"
+                Value="AliceBlue" />
+        </Style>
+        
+        <Style TargetType="{x:Type PasswordBox}">
+            <Setter
+                Property="Background"
+                Value="#302c2c" />
+            <Setter
+                Property="Foreground"
+                Value="AliceBlue" />
+        </Style>
+
         <Style TargetType="{x:Type Button}">
             <Setter
                 Property="Foreground"

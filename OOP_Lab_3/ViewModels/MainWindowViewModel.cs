@@ -54,10 +54,14 @@ namespace OOP_Lab_3.ViewModels
                 case NavDestination.User:
                     break;
                 case NavDestination.Users:
+                    CurrentViewModel = new UsersViewModel();
                     break;
                 case NavDestination.Shipment:
                     break;
                 case NavDestination.Shipments:
+                    break;
+                case NavDestination.MainMenu:
+                    CurrentViewModel = new MainMenuViewModel();
                     break;
             }
         }
