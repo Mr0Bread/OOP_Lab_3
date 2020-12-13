@@ -38,9 +38,7 @@
             Grid.Row="1"
             Grid.Column="2"
             Height="20"
-            x:Name="LoginBox"
-            Background="#FF836C6C"
-            Foreground="#FFEDE1E1" />
+            x:Name="LoginBox" />
 
         <Label
             Grid.Row="2"
@@ -51,9 +49,7 @@
             Grid.Row="2"
             Grid.Column="2"
             Height="20"
-            x:Name="PasswordBoxBox"
-            Background="#FF836C6C"
-            Foreground="#FFEDE1E1" />
+            x:Name="PasswordBoxBox" />
 
         <Button
             Grid.Row="3"
@@ -67,8 +63,8 @@
             Command="{Binding SignInCommand}">
             <Button.CommandParameter>
                 <MultiBinding Converter="{StaticResource LoginDataConverter}">
-                    <Binding ElementName="LoginBox"/>
-                    <Binding ElementName="PasswordBoxBox"/>
+                    <Binding ElementName="LoginBox" />
+                    <Binding ElementName="PasswordBoxBox" />
                 </MultiBinding>
             </Button.CommandParameter>
         </Button>

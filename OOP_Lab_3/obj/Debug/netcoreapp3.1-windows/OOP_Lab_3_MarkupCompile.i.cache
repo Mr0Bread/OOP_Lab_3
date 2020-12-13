@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1;
 C:\Users\zimni\RiderProjects\OOP_Lab_3\OOP_Lab_3\App.xaml
-3-1083501330
+4-643919950
 
-321762456755
+341859410811
 1921654412462
-MainWindow.xaml;Views\MainMenuView.xaml;Views\SignInView.xaml;
+MainWindow.xaml;Views\MainMenuView.xaml;Views\SignInView.xaml;Views\UsersView.xaml;
 
 False
 
