@@ -6,7 +6,7 @@ using OOP_Lab_3.Annotations;
 namespace OOP_Lab_3.Base
 {
     [Serializable]
-    public class ModelBase : INotifyPropertyChanged
+    public abstract class ModelBase : INotifyPropertyChanged
     {
         private int _id;
         public int Id
@@ -25,6 +25,11 @@ namespace OOP_Lab_3.Base
         protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+        }
+
+        public static string GetIdPropertyName()
+        {
+            return nameof(Id);
         }
     }
 }

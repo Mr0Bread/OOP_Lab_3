@@ -29,23 +29,6 @@ namespace OOP_Lab_3.Storage.StorageManagers
             Storage.SaveStorageStateToOptions();
         }
 
-        public override Shipment GetItemById(int id)
-        {
-            return GetItemsList().FirstOrDefault(item => item.Id == id);
-        }
-
-        public override bool DoesItemExists(List<Shipment> itemsList, int id)
-        {
-            return itemsList.Exists(x => x.Id == id);
-        }
-
-        public override List<Shipment> FilterOutById(List<Shipment> itemsList, int id)
-        {
-            return itemsList
-                .Where(item => item.Id != id)
-                .ToList();
-        }
-
         public new void AddItemToList(Shipment shipment)
         {
             shipment.Id = Instance.Counter;

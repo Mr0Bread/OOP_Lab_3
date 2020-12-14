@@ -1,8 +1,11 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using OOP_Lab_3.Base;
 using OOP_Lab_3.Constants;
 using OOP_Lab_3.Events;
+using OOP_Lab_3.Storage;
+using OOP_Lab_3.Storage.StorageManagers;
 
 namespace OOP_Lab_3.ViewModels
 {
@@ -44,6 +47,11 @@ namespace OOP_Lab_3.ViewModels
         {
             var view = Navigation.Navigation.Pages
                 .FirstOrDefault(x => x.ViewName == destination);
+
+            if (view == null)
+            {
+                return;
+            }
             
             var type = (from assembly in AppDomain.CurrentDomain.GetAssemblies()
                 from t in assembly.GetTypes()
