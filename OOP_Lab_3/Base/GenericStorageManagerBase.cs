@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Runtime.Serialization.Formatters.Binary;
@@ -9,7 +10,12 @@ namespace OOP_Lab_3.Base
     {
         protected string FileName;
         protected BinaryFormatter BinaryFormatter;
-        protected Stream Stream;
+        private Stream Stream;
+
+        protected GenericStorageManagerBase()
+        {
+            DoesPassedClassIsDerivedFromModelBase();
+        }
 
         public List<TModel> GetItemsList()
         {
@@ -25,12 +31,6 @@ namespace OOP_Lab_3.Base
             return itemsList;
         }
 
-        public abstract TModel GetItemById(int id);
-
-        public abstract bool DoesItemExists(List<TModel> itemsList, int id);
-
-        public abstract List<TModel> FilterOutById(List<TModel> itemsList, int id);
-
         public bool RemoveItemFromList(int id)
         {
             if (new FileInfo(FileName).Length == 0)
@@ -42,11 +42,11 @@ namespace OOP_Lab_3.Base
 
             var itemsList = (List<TModel>) BinaryFormatter.Deserialize(Stream);
 
-            if (!DoesItemExists(itemsList, id))
+            if (!DoesItemExistsInGivenList(itemsList, id))
             {
                 return false;
             }
-            
+
             itemsList = FilterOutById(itemsList, id);
             Stream.Close();
             Stream = GetFileStreamToWrite();
@@ -56,7 +56,7 @@ namespace OOP_Lab_3.Base
             return true;
         }
 
-        public void AddItemToList(TModel item)
+        protected void AddItemToList(TModel item)
         {
             if (new FileInfo(FileName).Length == 0)
             {
@@ -79,12 +79,12 @@ namespace OOP_Lab_3.Base
             UpdateStorageState();
         }
 
-        protected FileStream GetExistingFileStreamToRead()
+        private FileStream GetExistingFileStreamToRead()
         {
             return new FileStream(FileName, FileMode.Open, FileAccess.Read);
         }
 
-        protected FileStream GetFileStreamToWrite()
+        private FileStream GetFileStreamToWrite()
         {
             return new FileStream(FileName, FileMode.Open, FileAccess.Write);
         }
@@ -98,5 +98,36 @@ namespace OOP_Lab_3.Base
         }
 
         protected abstract void UpdateStorageState();
+
+        public TModel GetItemById(int id)
+        {
+            return GetItemsList().FirstOrDefault(item => (int) typeof(TModel)
+                .GetProperty(ModelBase.GetIdPropertyName())
+                .GetValue(item) == id);
+        }
+
+        private bool DoesItemExistsInGivenList(List<TModel> itemsList, int id)
+        {
+            return itemsList.Exists(x => (int) typeof(TModel)
+                                             .GetProperty(ModelBase.GetIdPropertyName())
+                                             .GetValue(x) == id);
+        }
+
+        private List<TModel> FilterOutById(List<TModel> itemsList, int id)
+        {
+            return itemsList
+                .Where(item => (int) typeof(TModel)
+                    .GetProperty(ModelBase.GetIdPropertyName())
+                        .GetValue(item) != id)
+                .ToList();
+        }
+
+        private void DoesPassedClassIsDerivedFromModelBase()
+        {
+            if (!typeof(TModel).IsSubclassOf(typeof(ModelBase)))
+            {
+                throw new Exception("Passed generic have to implement ModelBase abstract class");
+            }
+        }
     }
 }

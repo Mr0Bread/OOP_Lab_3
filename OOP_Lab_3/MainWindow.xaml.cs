@@ -28,31 +28,13 @@ namespace OOP_Lab_3
         public MainWindow()
         {
             InitializeComponent();
-            InitializeApplication();
-        }
-
-        private async void InitializeApplication()
-        {
-            await InitializeNavigation();
-            await InitializeStorage();
-        }
-
-        private async Task InitializeStorage()
-        {
-            await Task.Run(Storage.Storage.InitializeStorage);
-        }
-
-        private async Task InitializeNavigation()
-        {
-            await Task.Run(() =>
+            Storage.Storage.InitializeStorage();
+            Navigation.Navigation.Pages = new List<View>
             {
-                Navigation.Navigation.Pages = new List<View>
-                {
-                    new View(NavDestination.MainMenu, nameof(MainMenuViewModel)),
-                    new View(NavDestination.Users, nameof(UsersViewModel)),
-                    new View(NavDestination.SignIn, nameof(SignInViewModel))
-                };
-            });
+                new View(NavDestination.MainMenu, nameof(MainMenuViewModel)),
+                new View(NavDestination.Users, nameof(UsersViewModel)),
+                new View(NavDestination.SignIn, nameof(SignInViewModel))
+            };
         }
     }
 }

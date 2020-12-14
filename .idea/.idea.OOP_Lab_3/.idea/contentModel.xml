@@ -50,7 +50,9 @@
               <e p="MainWindow.g.cs" t="Include" />
               <e p="OOP_Lab_3.AssemblyInfo.cs" t="Include" />
               <e p="Views" t="Include">
+                <e p="MainMenuView.g.cs" t="Include" />
                 <e p="SignInView.g.cs" t="Include" />
+                <e p="UsersView.g.cs" t="Include" />
               </e>
             </e>
           </e>
@@ -65,6 +67,7 @@
             <e p="ShipmentStorageManager.cs" t="Include" />
             <e p="UserStorageManager.cs" t="Include" />
           </e>
+          <e p="StorageOption.cs" t="Include" />
           <e p="StorageOptions.cs" t="Include" />
         </e>
         <e p="ViewModels" t="Include">

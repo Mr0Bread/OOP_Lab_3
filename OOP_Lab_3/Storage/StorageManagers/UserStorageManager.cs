@@ -42,22 +42,5 @@ namespace OOP_Lab_3.Storage.StorageManagers
             BinaryFormatter = new BinaryFormatter();
             CreateFileIfNotExist();
         }
-
-        public override User GetItemById(int id)
-        {
-            return GetItemsList().FirstOrDefault(item => item.Id == id);
-        }
-
-        public override bool DoesItemExists(List<User> itemsList, int id)
-        {
-            return itemsList.Exists(x => x.Id == id);
-        }
-
-        public override List<User> FilterOutById(List<User> itemsList, int id)
-        {
-            return itemsList
-                .Where(item => item.Id != id)
-                .ToList();
-        }
     }
 }

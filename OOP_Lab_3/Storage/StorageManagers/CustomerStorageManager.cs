@@ -29,23 +29,6 @@ namespace OOP_Lab_3.Storage.StorageManagers
             }  
         }
 
-        public override Customer GetItemById(int id)
-        {
-            return GetItemsList().FirstOrDefault(item => item.Id == id);
-        }
-
-        public override bool DoesItemExists(List<Customer> itemsList, int id)
-        {
-            return itemsList.Exists(x => x.Id == id);
-        }
-
-        public override List<Customer> FilterOutById(List<Customer> itemsList, int id)
-        {
-            return itemsList
-                .Where(item => item.Id != id)
-                .ToList();
-        }
-
         public new void AddItemToList(Customer customer)
         {
             customer.Id = Instance.Counter;
